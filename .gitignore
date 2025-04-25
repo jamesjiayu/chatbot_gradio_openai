@@ -1,0 +1,31 @@
+# uv virtual environment
+.venv/
+
+# uv cache (if uv stores cache locally, optional depending on setup)
+uv_cache/
+
+# uv lock file (optional, include if you want to commit uv.lock)
+# uv.lock
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python environment and package files
+*.egg-info/
+dist/
+build/
+
+# IDE and editor files (optional, based on your tools)
+.vscode/
+.idea/
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Project-specific files (add based on your needs)
+*.log
