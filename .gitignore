@@ -29,3 +29,6 @@ Thumbs.db
 
 # Project-specific files (add based on your needs)
 *.log
+
+.env
+.envrc
