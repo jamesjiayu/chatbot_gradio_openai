@@ -1,79 +1,62 @@
-{"layout": [], "components": {}}
+{
+  "model": "gpt-4.1-nano-2025-04-14",
+  "input": "Tell me a three sentence bedtime story about a unicorn."
+}
 
 {
-    "object": "list",
-    "data": [
+  "id": "resp_681152cd67508192810cb27e14124d6601509b5f711d9a9b",
+  "object": "response",
+  "created_at": 1745965773,
+  "status": "completed",
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "max_output_tokens": null,
+  "model": "gpt-4.1-nano-2025-04-14",
+  "output": [
       {
-        "id": "msg_abc123",
-        "type": "message",
-        "role": "user",
-        "content": [
-          {
-            "type": "input_text",
-            "text": "Tell me a three sentence bedtime story about a unicorn."
-          }
-        ]
+          "id": "msg_681152cdd0488192915ec74db9f2bc7e01509b5f711d9a9b",
+          "type": "message",
+          "status": "completed",
+          "content": [
+              {
+                  "type": "output_text",
+                  "annotations": [],
+                  "text": "Once upon a time, in a magical forest, there lived a sparkling unicorn named Luna who loved to share her shimmering light with everyone around her. One night, she found a tiny lost star crying on the ground and gently guided it back to the sky, where it shined brighter than ever. From that day on, Luna and the star became best friends, ensuring the night sky was always filled with twinkling wonder for all to see."
+              }
+          ],
+          "role": "assistant"
       }
-    ],
-    "first_id": "msg_abc123",
-    "last_id": "msg_abc123",
-    "has_more": false
-  }
-
-  {
-    "id": "resp_67ccd3a9da748190baa7f1570fe91ac604becb25c45c1d41",
-    "object": "response",
-    "created_at": 1741476777,
-    "status": "completed",
-    "error": null,
-    "incomplete_details": null,
-    "instructions": null,
-    "max_output_tokens": null,
-    "model": "gpt-4o-2024-08-06",
-    "output": [
-      {
-        "type": "message",
-        "id": "msg_67ccd3acc8d48190a77525dc6de64b4104becb25c45c1d41",
-        "status": "completed",
-        "role": "assistant",
-        "content": [
-          {
-            "type": "output_text",
-            "text": "The image depicts a scenic landscape with a wooden boardwalk or pathway leading through lush, green grass under a blue sky with some clouds. The setting suggests a peaceful natural area, possibly a park or nature reserve. There are trees and shrubs in the background.",
-            "annotations": []
-          }
-        ]
-      }
-    ],
-    "parallel_tool_calls": true,
-    "previous_response_id": null,
-    "reasoning": {
+  ],
+  "parallel_tool_calls": true,
+  "previous_response_id": null,
+  "reasoning": {
       "effort": null,
       "summary": null
-    },
-    "store": true,
-    "temperature": 1.0,
-    "text": {
+  },
+  "service_tier": "default",
+  "store": true,
+  "temperature": 1.0,
+  "text": {
       "format": {
-        "type": "text"
+          "type": "text"
       }
-    },
-    "tool_choice": "auto",
-    "tools": [],
-    "top_p": 1.0,
-    "truncation": "disabled",
-    "usage": {
-      "input_tokens": 328,
+  },
+  "tool_choice": "auto",
+  "tools": [],
+  "top_p": 1.0,
+  "truncation": "disabled",
+  "usage": {
+      "input_tokens": 18,
       "input_tokens_details": {
-        "cached_tokens": 0
+          "cached_tokens": 0
       },
-      "output_tokens": 52,
+      "output_tokens": 90,
       "output_tokens_details": {
-        "reasoning_tokens": 0
+          "reasoning_tokens": 0
       },
-      "total_tokens": 380
-    },
-    "user": null,
-    "metadata": {}
-  }
-  
+      "total_tokens": 108
+  },
+  "user": null,
+  "metadata": {}
+}
