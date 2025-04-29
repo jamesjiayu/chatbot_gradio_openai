@@ -1,4 +1,4 @@
 component 0,timestamp
-"[{""role"": ""user"", ""metadata"": null, ""content"": ""Hello"", ""options"": null}, {""role"": ""assistant"", ""metadata"": null, ""content"": ""Ask me anything!"", ""options"": null}]",2025-04-25 13:34:48.777669
-"[{""role"": ""user"", ""metadata"": null, ""content"": ""Am I cool?"", ""options"": null}, {""role"": ""assistant"", ""metadata"": null, ""content"": ""Yes"", ""options"": null}]",2025-04-25 13:34:48.778667
-"[{""role"": ""user"", ""metadata"": null, ""content"": ""Are tomatoes vegetables?"", ""options"": null}, {""role"": ""assistant"", ""metadata"": null, ""content"": ""Yes"", ""options"": null}]",2025-04-25 13:34:48.778667
+"[{""role"": ""user"", ""metadata"": null, ""content"": ""\u4f60\u597d"", ""options"": null}, {""role"": ""assistant"", ""metadata"": null, ""content"": ""\u8bf7\u95ee\u662f\u6216\u5426\u95ee\u9898\uff01"", ""options"": null}]",2025-04-29 00:37:14.474617
+"[{""role"": ""user"", ""metadata"": null, ""content"": ""\u6211\u9177\u5417\uff1f"", ""options"": null}, {""role"": ""assistant"", ""metadata"": null, ""content"": ""\u8bf7\u95ee\u662f\u6216\u5426\u95ee\u9898\uff01"", ""options"": null}]",2025-04-29 00:37:14.475694
+"[{""role"": ""user"", ""metadata"": null, ""content"": ""\u756a\u8304\u662f\u852c\u83dc\u5417\uff1f"", ""options"": null}, {""role"": ""assistant"", ""metadata"": null, ""content"": ""\u8bf7\u95ee\u662f\u6216\u5426\u95ee\u9898\uff01"", ""options"": null}]",2025-04-29 00:37:14.476988
