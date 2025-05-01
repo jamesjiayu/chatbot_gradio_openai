@@ -2,7 +2,7 @@
     "model": "gpt-4.1-mini",
     "input": "what's the best bbq in Dallas?",
     "max_output_tokens":2048,
-    "tool_choice":{"type": "web_search_preview"},
+    "tool_choice":{"type": "web_search_preview"}, 
     "tools":[
         {
             "type": "web_search_preview",
@@ -17,7 +17,8 @@
         }
     ]
   }
-
+tool_choice={"type": "web_search_preview"} 表示每次强制使用 web_search_preview 工具生成响应
+tool_choice="auto" 允许模型根据输入自动决定是否调用工具（可能调用 web_search_preview 或其他工具，或直接生成文本）
 
 {
     "id": "resp_6813e5e6bf0c81929ed2300d328a74ba07fd2174afec8059",
