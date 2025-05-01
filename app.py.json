@@ -1,62 +1,119 @@
 {
-  "model": "gpt-4.1-nano-2025-04-14",
-  "input": "Tell me a three sentence bedtime story about a unicorn."
-}
+    "model": "gpt-4.1-mini",
+    "input": "what's the best bbq in Dallas?",
+    "max_output_tokens":2048,
+    "tool_choice":{"type": "web_search_preview"},
+    "tools":[
+        {
+            "type": "web_search_preview",
+            "search_context_size": "low",
+            "user_location": {
+            "type": "approximate",
+            "country": "US",
+            "city": "Dallas",
+            "region": "Dallas-Fort Worth",
+            "timezone":"America/Chicago"
+        }
+        }
+    ]
+  }
+
 
 {
-  "id": "resp_681152cd67508192810cb27e14124d6601509b5f711d9a9b",
-  "object": "response",
-  "created_at": 1745965773,
-  "status": "completed",
-  "error": null,
-  "incomplete_details": null,
-  "instructions": null,
-  "max_output_tokens": null,
-  "model": "gpt-4.1-nano-2025-04-14",
-  "output": [
-      {
-          "id": "msg_681152cdd0488192915ec74db9f2bc7e01509b5f711d9a9b",
-          "type": "message",
-          "status": "completed",
-          "content": [
-              {
-                  "type": "output_text",
-                  "annotations": [],
-                  "text": "Once upon a time, in a magical forest, there lived a sparkling unicorn named Luna who loved to share her shimmering light with everyone around her. One night, she found a tiny lost star crying on the ground and gently guided it back to the sky, where it shined brighter than ever. From that day on, Luna and the star became best friends, ensuring the night sky was always filled with twinkling wonder for all to see."
-              }
-          ],
-          "role": "assistant"
-      }
-  ],
-  "parallel_tool_calls": true,
-  "previous_response_id": null,
-  "reasoning": {
-      "effort": null,
-      "summary": null
-  },
-  "service_tier": "default",
-  "store": true,
-  "temperature": 1.0,
-  "text": {
-      "format": {
-          "type": "text"
-      }
-  },
-  "tool_choice": "auto",
-  "tools": [],
-  "top_p": 1.0,
-  "truncation": "disabled",
-  "usage": {
-      "input_tokens": 18,
-      "input_tokens_details": {
-          "cached_tokens": 0
-      },
-      "output_tokens": 90,
-      "output_tokens_details": {
-          "reasoning_tokens": 0
-      },
-      "total_tokens": 108
-  },
-  "user": null,
-  "metadata": {}
+    "id": "resp_6813e5e6bf0c81929ed2300d328a74ba07fd2174afec8059",
+    "object": "response",
+    "created_at": 1746134502,
+    "status": "completed",
+    "error": null,
+    "incomplete_details": null,
+    "instructions": null,
+    "max_output_tokens": 2048,
+    "model": "gpt-4.1-mini-2025-04-14",
+    "output": [
+        {
+            "id": "ws_6813e5e6d5888192b20e059ffeda409a07fd2174afec8059",
+            "type": "web_search_call",
+            "status": "completed"
+        },
+        {
+            "id": "msg_6813e5eb45708192b99e966474d8336407fd2174afec8059",
+            "type": "message",
+            "status": "completed",
+            "content": [
+                {
+                    "type": "output_text",
+                    "annotations": [
+                        {
+                            "type": "url_citation",
+                            "end_index": 167,
+                            "start_index": 127,
+                            "title": "Pecan Lodge",
+                            "url": "http://www.pecanlodge.com"
+                        },
+                        {
+                            "type": "url_citation",
+                            "end_index": 510,
+                            "start_index": 461,
+                            "title": "Cattleack Barbeque",
+                            "url": "http://www.cattleackbbq.com"
+                        },
+                        {
+                            "type": "url_citation",
+                            "end_index": 868,
+                            "start_index": 814,
+                            "title": "Sonny Bryan's Smokehouse",
+                            "url": "http://www.sonnybryans.com"
+                        }
+                    ],
+                    "text": "Dallas boasts a vibrant barbecue scene with several renowned establishments. Here are some top-rated BBQ spots in the city:\n\n**[Pecan Lodge](http://www.pecanlodge.com)**  \n**Closed · BBQ · $$ · 4.6 (905 reviews)**  \n_2702 Main St (at Pryor St), Dallas, TX 75226_  \nLocated in Deep Ellum, Pecan Lodge is celebrated for its beef brisket, pork ribs, sausage, turkey, and pulled pork. The restaurant also offers popular sides like mac and cheese and fried okra.\n\n**[Cattleack Barbeque](http://www.cattleackbbq.com)**  \n**Closed · BBQ · $$ · 4.5 (101 reviews)**  \n_13628 Gamma Rd (Alpha), Dallas, TX 75244_  \nSituated in Farmers Branch, Cattleack Barbeque is known for its brisket, rib steak, pork ribs, turkey, burnt ends, and pulled pork. The restaurant operates Wednesday through Friday from 10:00 AM to 2:00 PM.\n\n**[Sonny Bryan's Smokehouse](http://www.sonnybryans.com)**  \n**Closed · BBQ · $$ · 3.3 (19 reviews)**  \n_325 N Saint Paul St Ste C4 (Pacific Ave.), Dallas, TX 75201_  \nEstablished in 1958, Sonny Bryan's Smokehouse has multiple locations across Dallas. The restaurant is recognized for its rich history and classic barbecue offerings.\n\n**Smoke'N Ash BBQ**  \n**Closed · BBQ · $$**  \n_5904 S Cooper St, Arlington, TX 76017_  \nSmoke'N Ash BBQ is a fusion barbecue restaurant that combines Ethiopian and Texas culinary traditions. It was a semifinalist for Best Chef in Texas in 2025.\n\nEach of these establishments offers a unique take on Texas barbecue, ensuring a memorable dining experience. "
+                }
+            ],
+            "role": "assistant"
+        }
+    ],
+    "parallel_tool_calls": true,
+    "previous_response_id": null,
+    "reasoning": {
+        "effort": null,
+        "summary": null
+    },
+    "service_tier": "auto",
+    "store": true,
+    "temperature": 1.0,
+    "text": {
+        "format": {
+            "type": "text"
+        }
+    },
+    "tool_choice": {
+        "type": "web_search_preview"
+    },
+    "tools": [
+        {
+            "type": "web_search_preview",
+            "search_context_size": "low",
+            "user_location": {
+                "type": "approximate",
+                "city": "Dallas",
+                "country": "US",
+                "region": "Dallas-Fort Worth",
+                "timezone": "America/Chicago"
+            }
+        }
+    ],
+    "top_p": 1.0,
+    "truncation": "disabled",
+    "usage": {
+        "input_tokens": 310,
+        "input_tokens_details": {
+            "cached_tokens": 0
+        },
+        "output_tokens": 390,
+        "output_tokens_details": {
+            "reasoning_tokens": 0
+        },
+        "total_tokens": 700
+    },
+    "user": null,
+    "metadata": {}
 }
