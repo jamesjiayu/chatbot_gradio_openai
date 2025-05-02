@@ -77,15 +77,6 @@ body {
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5) !important;
     background: #f7e084 !important;
 }
-.gr-example {
-    background: #4a3b5a !important;
-    color: #f2e9e4 !important;
-    border-radius: 10px !important;
-    padding: 8px 12px !important;
-    margin: 6px !important;
-    font-family: 'Courier New', monospace !important;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3) !important;
-}
 button[aria-label='Retry'] {
     display: none !important;
 }
